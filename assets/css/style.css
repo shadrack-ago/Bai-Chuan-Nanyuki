@@ -124,7 +124,7 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .nav a.active { color: var(--accent-text); box-shadow: var(--neu-press); }
 
 .nav-actions { display: flex; align-items: center; gap: 10px; }
-.icon-btn { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; }
+.icon-btn { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; padding: 0; }
 .icon-btn svg { width: 20px; height: 20px; }
 .i-moon { display: none; }
 :root[data-theme="dark"] .i-sun { display: none; }
@@ -133,7 +133,7 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
   :root:not([data-theme="light"]) .i-sun { display: none; }
   :root:not([data-theme="light"]) .i-moon { display: block; }
 }
-.menu-btn { display: none; flex-direction: column; gap: 4px; }
+.menu-btn { display: none; flex-direction: column; align-items: center; justify-content: center; gap: 4px; padding: 0; }
 .menu-btn span { display: block; width: 18px; height: 2px; border-radius: 2px; background: currentColor; transition: transform .3s, opacity .3s; }
 .menu-btn[aria-expanded="true"] span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
 .menu-btn[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
