@@ -42,38 +42,6 @@
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
-  // ----- Reveal on scroll + counters -----
-  function countUp(el) {
-    var target = parseInt(el.getAttribute('data-count'), 10);
-    var suffix = el.getAttribute('data-suffix') || '';
-    var start = target > 1000 ? target - 40 : 0;
-    var dur = 1400, t0 = null;
-    function tick(t) {
-      if (!t0) t0 = t;
-      var p = Math.min((t - t0) / dur, 1);
-      var eased = 1 - Math.pow(1 - p, 3);
-      el.textContent = Math.round(start + (target - start) * eased) + suffix;
-      if (p < 1) requestAnimationFrame(tick);
-    }
-    requestAnimationFrame(tick);
-  }
-  var reveals = document.querySelectorAll('.reveal');
-  var counters = document.querySelectorAll('[data-count]');
-  if ('IntersectionObserver' in window) {
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (!en.isIntersecting) return;
-        en.target.classList.add('in');
-        en.target.querySelectorAll('[data-count]').forEach(countUp);
-        io.unobserve(en.target);
-      });
-    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-    reveals.forEach(function (el) { io.observe(el); });
-  } else {
-    reveals.forEach(function (el) { el.classList.add('in'); });
-    counters.forEach(function (el) { el.textContent = el.getAttribute('data-count') + (el.getAttribute('data-suffix') || ''); });
-  }
-
   // ----- Project filters -----
   var filters = document.querySelectorAll('.filter');
   var projects = document.querySelectorAll('.project');

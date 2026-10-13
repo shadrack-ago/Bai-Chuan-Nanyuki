@@ -12,7 +12,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Baichuan Ltd">
   <meta property="og:title" content="Baichuan Ltd | Water &amp; Power Infrastructure Solutions">
-  <meta property="og:description" content="Engineering water, power and infrastructure for Kenya and East Africa.">
+  <meta property="og:description" content="Water, power and civil infrastructure contractor based in Nairobi, Kenya.">
   <meta property="og:url" content="https://baichuanltd.com/">
   <meta property="og:image" content="https://baichuanltd.com/assets/img/og-image.jpg">
   <meta name="twitter:card" content="summary_large_image">
@@ -22,7 +22,8 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="assets/css/style.css">
 
   <script>
@@ -72,12 +73,13 @@
 
       <div class="nav-actions">
         <button class="icon-btn neu-btn" id="themeToggle" type="button" aria-label="Toggle dark mode">
-          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
-          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 1 1 9.5 3.5a7 7 0 0 0 11 11Z"/></svg>
+          <i class="fa-solid fa-sun i-sun" aria-hidden="true"></i>
+          <i class="fa-solid fa-moon i-moon" aria-hidden="true"></i>
         </button>
-        <a href="#contact" class="btn btn-primary btn-sm hide-sm">Get a Quote</a>
+        <a href="#contact" class="btn btn-primary btn-sm hide-sm">Request a Quote</a>
         <button class="icon-btn neu-btn menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
-          <span></span><span></span><span></span>
+          <i class="fa-solid fa-bars i-open" aria-hidden="true"></i>
+          <i class="fa-solid fa-xmark i-close" aria-hidden="true"></i>
         </button>
       </div>
     </div>
@@ -87,83 +89,47 @@
 
     <!-- ============ HERO ============ -->
     <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <span class="pill neu-inset"><span class="dot"></span> Nairobi, Kenya · Serving East Africa</span>
-          <h1>Engineering <span class="grad">water &amp; power</span> for a growing Africa.</h1>
-          <p class="lead">Baichuan Water Conservancy and Electric Power Construction Limited delivers water supply, hydraulic, power transmission and civil infrastructure projects. Our engineering is built for quality and safety, and we finish on schedule.</p>
-          <div class="hero-cta">
-            <a href="#contact" class="btn btn-primary">Start a Project
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a href="#projects" class="btn neu-btn">View Our Work</a>
-          </div>
-          <ul class="hero-badges">
-            <li class="neu-sm"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg> Safety first</li>
-            <li class="neu-sm"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 7 5-3 5 3-1.5-7"/></svg> Quality certified</li>
-            <li class="neu-sm"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> On-time delivery</li>
-          </ul>
-        </div>
-
-        <div class="hero-visual reveal">
-          <div class="hero-frame neu">
-            <img src="assets/img/hero-dam.jpg" alt="Hydropower dam and spillway on a river" width="1600" height="928" fetchpriority="high">
-          </div>
-          <div class="float-card fc-1 neu">
-            <span class="fc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11Z"/></svg></span>
-            <div><strong>Water Systems</strong><small>Supply · Treatment · Storage</small></div>
-          </div>
-          <div class="float-card fc-2 neu">
-            <span class="fc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg></span>
-            <div><strong>Up to 220 kV</strong><small>Transmission &amp; Substations</small></div>
+      <div class="container">
+        <div class="hero-top">
+          <h1>Water, power and civil works, built to last.</h1>
+          <div class="hero-side">
+            <p class="lead">Baichuan Water Conservancy and Electric Power Construction Limited is a Nairobi-based contractor. We build water supply systems, hydraulic structures, power lines, substations, roads and buildings across Kenya and East Africa.</p>
+            <div class="hero-cta">
+              <a href="#contact" class="btn btn-primary">Request a Quote <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+              <a href="#projects" class="btn neu-btn">See Our Projects</a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- ============ STATS ============ -->
-    <section class="stats" aria-label="Key figures">
-      <div class="container stats-grid">
-        <div class="stat neu reveal"><span class="num" data-count="50" data-suffix="+">0</span><span class="label">Years of engineering heritage</span></div>
-        <div class="stat neu reveal"><span class="num" data-count="300" data-suffix="+">0</span><span class="label">Units of major plant &amp; machinery</span></div>
-        <div class="stat neu reveal"><span class="num" data-count="7">0</span><span class="label">Engineering disciplines</span></div>
-        <div class="stat neu reveal"><span class="num" data-count="2015">0</span><span class="label">Building in Kenya since</span></div>
+        <figure class="hero-image">
+          <img src="assets/img/hero-dam.jpg" alt="Hydropower station and spillway on a river" width="1600" height="928" fetchpriority="high">
+        </figure>
+
+        <dl class="facts">
+          <div><dt>50+</dt><dd>years of engineering heritage</dd></div>
+          <div><dt>300+</dt><dd>units of plant &amp; machinery</dd></div>
+          <div><dt>220 kV</dt><dd>transmission &amp; substation works</dd></div>
+          <div><dt>2015</dt><dd>building in Kenya since</dd></div>
+        </dl>
       </div>
     </section>
 
     <!-- ============ ABOUT ============ -->
     <section class="section" id="about">
       <div class="container about-grid">
-        <div class="about-media reveal">
-          <div class="img-stack">
-            <figure class="neu img-a"><img src="assets/img/kericho-water.jpg" alt="Water treatment works with settling tanks and plant buildings" loading="lazy"></figure>
-            <figure class="neu img-b"><img src="assets/img/water-tower.jpg" alt="Elevated steel water storage tower" loading="lazy"></figure>
-          </div>
-          <div class="exp-badge neu">
-            <strong>50+</strong>
-            <span>years of engineering heritage</span>
-          </div>
-        </div>
-        <div class="about-copy reveal">
-          <span class="eyebrow">About Baichuan</span>
-          <h2>Infrastructure partners who build for the long term</h2>
-          <p>Baichuan Water Conservancy and Electric Power Construction Limited is a Kenyan engineering and construction company. We specialise in water conservancy, electric power and civil infrastructure. Our technical heritage goes back more than five decades. Our team combines international construction standards with local knowledge of Kenya and the wider East African region.</p>
-          <p>We deliver projects from survey and design support through construction, installation and commissioning. Clients include government agencies, utilities, developers and private enterprises.</p>
+        <figure class="about-image">
+          <img src="assets/img/site-crew.jpg" alt="Construction crew installing equipment at a 110 kV substation" loading="lazy">
+        </figure>
+        <div class="about-copy">
+          <h2>About Baichuan</h2>
+          <p>Baichuan is a Kenyan engineering and construction company working in water conservancy, electric power and civil infrastructure. Our technical team has more than fifty years of construction experience behind it, and has worked in Kenya since 2015.</p>
+          <p>We take projects from survey and design support through construction, installation and commissioning. Our clients are government agencies, county governments, utilities, developers and private companies.</p>
 
-          <div class="values">
-            <div class="value neu-sm">
-              <span class="v-ico neu-inset"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/></svg></span>
-              <div><h3>Integrity</h3><p>We keep our word, and we honour every commitment and contract.</p></div>
-            </div>
-            <div class="value neu-sm">
-              <span class="v-ico neu-inset"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 7 5-3 5 3-1.5-7"/></svg></span>
-              <div><h3>Quality</h3><p>We construct with care and finish to a high standard.</p></div>
-            </div>
-            <div class="value neu-sm">
-              <span class="v-ico neu-inset"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 11.5 12 7l5 4.5M7 17l5-4.5 5 4.5"/></svg></span>
-              <div><h3>Mutual Growth</h3><p>We build win-win partnerships with clients and communities.</p></div>
-            </div>
-          </div>
+          <ul class="points">
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i><span><strong>Our own plant.</strong> Excavators, rollers, dozers and cranes are owned and run by us, not hired in.</span></li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i><span><strong>One contractor, several disciplines.</strong> Civil, hydraulic and electrical works under one contract.</span></li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i><span><strong>Safety and quality systems.</strong> Documented quality, environmental and health &amp; safety procedures on every site.</span></li>
+          </ul>
         </div>
       </div>
     </section>
@@ -171,68 +137,41 @@
     <!-- ============ SERVICES ============ -->
     <section class="section section-alt" id="services">
       <div class="container">
-        <div class="section-head reveal">
-          <span class="eyebrow">What We Do</span>
-          <h2>End-to-end engineering &amp; construction</h2>
-          <p>One contractor with multiple disciplines and the plant, people and processes to deliver complex infrastructure.</p>
+        <div class="section-head">
+          <h2>What we do</h2>
+          <p>Six areas of work, often combined on a single project.</p>
         </div>
 
         <div class="services-grid">
-          <article class="service neu reveal">
-            <span class="s-ico neu-inset"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18c2 0 2-1.5 4.5-1.5S9.5 18 12 18s2.5-1.5 4.5-1.5S19 18 21 18"/><path d="M3 14c2 0 2-1.5 4.5-1.5S9.5 14 12 14s2.5-1.5 4.5-1.5S19 14 21 14"/><path d="M5 10V4h14v6"/></svg></span>
-            <h3>Water Conservancy &amp; Hydraulics</h3>
+          <article class="svc">
+            <div class="svc-img"><img src="assets/img/svc-water.jpg" alt="Reservoir with concrete embankment" loading="lazy"></div>
+            <h3>Water conservancy &amp; hydraulics</h3>
             <p>Dams, reservoirs, embankments, river training, dikes and flood-control works.</p>
-            <ul class="tags"><li>Reservoirs</li><li>Levees</li><li>Barrages</li></ul>
           </article>
-
-          <article class="service neu reveal">
-            <span class="s-ico neu-inset"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11Z"/><path d="M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5"/></svg></span>
-            <h3>Water Supply &amp; Treatment</h3>
-            <p>Water supply systems, treatment works, storage tanks, pumping stations and pipelines.</p>
-            <ul class="tags"><li>Treatment works</li><li>Pipelines</li><li>Pump stations</li></ul>
+          <article class="svc">
+            <div class="svc-img"><img src="assets/img/water-tower.jpg" alt="Elevated steel water tank" loading="lazy"></div>
+            <h3>Water supply &amp; treatment</h3>
+            <p>Treatment works, storage tanks, pumping stations, transmission mains and distribution pipelines.</p>
           </article>
-
-          <article class="service neu reveal">
-            <span class="s-ico neu-inset"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg></span>
-            <h3>Power Transmission &amp; Substations</h3>
-            <p>Transmission and distribution lines and substations up to 220 kV. We also install and test electrical equipment.</p>
-            <ul class="tags"><li>110 / 220 kV</li><li>Distribution</li><li>Commissioning</li></ul>
+          <article class="svc">
+            <div class="svc-img"><img src="assets/img/svc-power.jpg" alt="Outdoor high-voltage substation" loading="lazy"></div>
+            <h3>Power transmission &amp; substations</h3>
+            <p>Lines and substations up to 220 kV, plus installation, testing and maintenance of electrical equipment.</p>
           </article>
-
-          <article class="service neu reveal">
-            <span class="s-ico neu-inset"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21 9 3M19 21 15 3M12 6v2M12 11v2M12 16v3"/></svg></span>
-            <h3>Roads &amp; Municipal Works</h3>
-            <p>Roads, highways, bridges, drainage, street lighting and urban public infrastructure.</p>
-            <ul class="tags"><li>Roads</li><li>Bridges</li><li>Drainage</li></ul>
+          <article class="svc">
+            <div class="svc-img"><img src="assets/img/svc-roads.jpg" alt="Elevated road with guard rails" loading="lazy"></div>
+            <h3>Roads &amp; municipal works</h3>
+            <p>Roads, bridges, drainage, street lighting and other public infrastructure.</p>
           </article>
-
-          <article class="service neu reveal">
-            <span class="s-ico neu-inset"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V8l8-5 8 5v13"/><path d="M9 21v-6h6v6M9 10h.01M15 10h.01"/></svg></span>
-            <h3>Building Construction</h3>
-            <p>Commercial, institutional and residential buildings, including structures, fit-out and building services.</p>
-            <ul class="tags"><li>Commercial</li><li>Institutional</li><li>Residential</li></ul>
+          <article class="svc">
+            <div class="svc-img"><img src="assets/img/svc-buildings.jpg" alt="School campus with sports field" loading="lazy"></div>
+            <h3>Building construction</h3>
+            <p>Commercial, institutional and residential buildings, from structure to fit-out and services.</p>
           </article>
-
-          <article class="service neu reveal">
-            <span class="s-ico neu-inset"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21v-7"/><path d="M12 14c-4 0-7-3-7-7 4 0 7 3 7 7Zm0 0c4 0 7-3 7-7-4 0-7 3-7 7Z"/></svg></span>
-            <h3>Landscape &amp; Environmental</h3>
-            <p>Parks, landscaping, ecological restoration, irrigation and environmental protection works.</p>
-            <ul class="tags"><li>Parks</li><li>Irrigation</li><li>Restoration</li></ul>
-          </article>
-
-          <article class="service neu reveal">
-            <span class="s-ico neu-inset"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.9 4.9 7 7M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1 7 17M17 7l2.1-2.1"/></svg></span>
-            <h3>Electromechanical Installation</h3>
-            <p>Installation, maintenance and testing of electrical and mechanical systems for utilities and facilities.</p>
-            <ul class="tags"><li>Installation</li><li>Testing</li><li>Maintenance</li></ul>
-          </article>
-
-          <article class="service service-cta reveal">
-            <h3>Have a project in mind?</h3>
-            <p>Tell us your scope, location and timeline. Our engineers will respond with a tailored proposal.</p>
-            <a href="#contact" class="btn btn-light">Talk to an Engineer
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
+          <article class="svc">
+            <div class="svc-img"><img src="assets/img/svc-environment.jpg" alt="Landscaped public park with water feature" loading="lazy"></div>
+            <h3>Landscape &amp; environmental</h3>
+            <p>Parks, irrigation, ecological restoration and environmental protection works.</p>
           </article>
         </div>
       </div>
@@ -241,13 +180,12 @@
     <!-- ============ PROJECTS ============ -->
     <section class="section" id="projects">
       <div class="container">
-        <div class="section-head reveal">
-          <span class="eyebrow">Featured Work</span>
-          <h2>Projects that power communities</h2>
-          <p>Selected works from our engineering portfolio in water, power, transport and buildings.</p>
+        <div class="section-head">
+          <h2>Selected projects</h2>
+          <p>Work from our portfolio in water, power, transport and buildings.</p>
         </div>
 
-        <div class="filters neu-inset reveal" role="tablist" aria-label="Filter projects">
+        <div class="filters neu-inset" role="tablist" aria-label="Filter projects">
           <button class="filter active" data-filter="all" role="tab" aria-selected="true">All</button>
           <button class="filter" data-filter="water" role="tab" aria-selected="false">Water</button>
           <button class="filter" data-filter="power" role="tab" aria-selected="false">Power</button>
@@ -256,53 +194,53 @@
         </div>
 
         <div class="projects-grid collapsed" id="projectsGrid">
-          <figure class="project neu wide" data-cat="water">
+          <figure class="project wide" data-cat="water">
             <img src="assets/img/kericho-water.jpg" alt="Water treatment works in Kericho, Kenya" loading="lazy">
-            <figcaption><span class="chip">Water · Kenya</span><strong>Expansion of Water Supply Systems</strong><small>Kericho Town, Kenya</small></figcaption>
+            <figcaption><span class="cat">Water · Kenya</span><strong>Expansion of Water Supply Systems</strong><small>Kericho Town, Kenya</small></figcaption>
           </figure>
-          <figure class="project neu" data-cat="power">
+          <figure class="project" data-cat="power">
             <img src="assets/img/substation-build.jpg" alt="110 kV substation under construction" loading="lazy">
-            <figcaption><span class="chip">Power</span><strong>110 kV Substation Construction</strong><small>Substation civil &amp; electrical works</small></figcaption>
+            <figcaption><span class="cat">Power</span><strong>110 kV Substation Construction</strong><small>Civil &amp; electrical works</small></figcaption>
           </figure>
-          <figure class="project neu" data-cat="water">
+          <figure class="project" data-cat="water">
             <img src="assets/img/dike.jpg" alt="Reinforced river embankment with watch tower" loading="lazy">
-            <figcaption><span class="chip">Water</span><strong>Embankment Reinforcement</strong><small>Flood control &amp; dike works</small></figcaption>
+            <figcaption><span class="cat">Water</span><strong>Embankment Reinforcement</strong><small>Flood control &amp; dike works</small></figcaption>
           </figure>
-          <figure class="project neu tall" data-cat="water">
-            <img src="assets/img/water-tower.jpg" alt="Elevated steel water tower" loading="lazy">
-            <figcaption><span class="chip">Water · Kenya</span><strong>Elevated Water Storage</strong><small>Steel tower &amp; tank installation</small></figcaption>
+          <figure class="project" data-cat="power">
+            <img src="assets/img/gantry.jpg" alt="Substation gantry and busbar structure" loading="lazy">
+            <figcaption><span class="cat">Power</span><strong>Substation Gantry &amp; Busbars</strong><small>Steel structure &amp; equipment erection</small></figcaption>
           </figure>
-          <figure class="project neu" data-cat="infra">
+          <figure class="project" data-cat="infra">
             <img src="assets/img/highway.jpg" alt="Multi-lane highway" loading="lazy">
-            <figcaption><span class="chip">Infrastructure</span><strong>Urban Highway Works</strong><small>Road construction &amp; marking</small></figcaption>
+            <figcaption><span class="cat">Infrastructure</span><strong>Urban Highway Works</strong><small>Road construction &amp; marking</small></figcaption>
           </figure>
-          <figure class="project neu" data-cat="power">
+          <figure class="project" data-cat="power">
             <img src="assets/img/substation.jpg" alt="Outdoor substation switchyard" loading="lazy">
-            <figcaption><span class="chip">Power</span><strong>220 kV Switchyard</strong><small>Transformer &amp; switchgear installation</small></figcaption>
+            <figcaption><span class="cat">Power</span><strong>220 kV Switchyard</strong><small>Transformer &amp; switchgear installation</small></figcaption>
           </figure>
-          <figure class="project neu wide" data-cat="water">
+          <figure class="project wide" data-cat="water">
             <img src="assets/img/reservoir.jpg" alt="Reservoir with lined embankment" loading="lazy">
-            <figcaption><span class="chip">Water</span><strong>Reservoir Rehabilitation</strong><small>Dam &amp; spillway works</small></figcaption>
+            <figcaption><span class="cat">Water</span><strong>Reservoir Rehabilitation</strong><small>Dam &amp; spillway works</small></figcaption>
           </figure>
-          <figure class="project neu" data-cat="infra">
+          <figure class="project" data-cat="infra">
             <img src="assets/img/road.jpg" alt="Paved rural road through green fields" loading="lazy">
-            <figcaption><span class="chip">Infrastructure</span><strong>Avenue &amp; Access Roads</strong><small>Municipal road network</small></figcaption>
+            <figcaption><span class="cat">Infrastructure</span><strong>Avenue &amp; Access Roads</strong><small>Municipal road network</small></figcaption>
           </figure>
-          <figure class="project neu" data-cat="building">
+          <figure class="project wide" data-cat="building">
             <img src="assets/img/datacenter.jpg" alt="Modern data centre building" loading="lazy">
-            <figcaption><span class="chip">Buildings</span><strong>Data Centre Facility</strong><small>Commercial building construction</small></figcaption>
+            <figcaption><span class="cat">Buildings</span><strong>Data Centre Facility</strong><small>Commercial building construction</small></figcaption>
           </figure>
-          <figure class="project neu" data-cat="power">
+          <figure class="project" data-cat="power">
             <img src="assets/img/power-lines.jpg" alt="Power distribution lines and pole" loading="lazy">
-            <figcaption><span class="chip">Power</span><strong>Distribution Line Upgrade</strong><small>10–35 kV line reconstruction</small></figcaption>
+            <figcaption><span class="cat">Power</span><strong>Distribution Line Upgrade</strong><small>10–35 kV line reconstruction</small></figcaption>
           </figure>
-          <figure class="project neu" data-cat="building">
+          <figure class="project" data-cat="building">
             <img src="assets/img/building.jpg" alt="Institutional office building" loading="lazy">
-            <figcaption><span class="chip">Buildings</span><strong>Institutional Office Block</strong><small>Design &amp; build</small></figcaption>
+            <figcaption><span class="cat">Buildings</span><strong>Institutional Office Block</strong><small>Design &amp; build</small></figcaption>
           </figure>
-          <figure class="project neu" data-cat="infra">
+          <figure class="project" data-cat="infra">
             <img src="assets/img/park.jpg" alt="Landscaped park with fountain" loading="lazy">
-            <figcaption><span class="chip">Environmental</span><strong>Public Park &amp; Landscaping</strong><small>Hardscape, softscape &amp; water features</small></figcaption>
+            <figcaption><span class="cat">Environmental</span><strong>Public Park &amp; Landscaping</strong><small>Hardscape, planting &amp; water features</small></figcaption>
           </figure>
         </div>
         <div class="show-more-wrap"><button class="btn neu-btn" id="showMore" type="button">View all projects</button></div>
@@ -312,45 +250,44 @@
     <!-- ============ CAPABILITY ============ -->
     <section class="section section-alt" id="capability">
       <div class="container">
-        <div class="section-head reveal">
-          <span class="eyebrow">Capability</span>
-          <h2>Our own plant fleet and a proven process</h2>
-          <p>We own and operate heavy construction equipment, so we keep control of quality, cost and schedule from site setup to handover.</p>
+        <div class="section-head">
+          <h2>Plant and process</h2>
+          <p>Because we own our heavy equipment, we control cost and schedule from site setup to handover.</p>
         </div>
 
-        <div class="fleet reveal">
-          <div class="fleet-item neu"><div class="fleet-img neu-inset"><img src="assets/img/m-excavator.jpg" alt="Excavator" loading="lazy"></div><span>Excavators</span></div>
-          <div class="fleet-item neu"><div class="fleet-img neu-inset"><img src="assets/img/m-bulldozer.jpg" alt="Bulldozer" loading="lazy"></div><span>Bulldozers</span></div>
-          <div class="fleet-item neu"><div class="fleet-img neu-inset"><img src="assets/img/m-roller.jpg" alt="Double steel drum roller" loading="lazy"></div><span>Steel Rollers</span></div>
-          <div class="fleet-item neu"><div class="fleet-img neu-inset"><img src="assets/img/m-tyre-roller.jpg" alt="Pneumatic tyre roller" loading="lazy"></div><span>Tyre Rollers</span></div>
-          <div class="fleet-item neu"><div class="fleet-img neu-inset"><img src="assets/img/m-crane.jpg" alt="Tower crane" loading="lazy"></div><span>Tower Cranes</span></div>
+        <div class="fleet">
+          <figure><img src="assets/img/m-excavator.jpg" alt="Excavator" loading="lazy"><figcaption>Excavators</figcaption></figure>
+          <figure><img src="assets/img/m-bulldozer.jpg" alt="Bulldozer" loading="lazy"><figcaption>Bulldozers</figcaption></figure>
+          <figure><img src="assets/img/m-roller.jpg" alt="Double steel drum roller" loading="lazy"><figcaption>Steel drum rollers</figcaption></figure>
+          <figure><img src="assets/img/m-tyre-roller.jpg" alt="Pneumatic tyre roller" loading="lazy"><figcaption>Tyre rollers</figcaption></figure>
+          <figure><img src="assets/img/m-crane.jpg" alt="Tower crane" loading="lazy"><figcaption>Tower cranes</figcaption></figure>
         </div>
 
         <ol class="process">
-          <li class="step neu reveal"><span class="step-n neu-inset">01</span><h3>Consult &amp; Survey</h3><p>Site assessment, feasibility and requirements definition.</p></li>
-          <li class="step neu reveal"><span class="step-n neu-inset">02</span><h3>Plan &amp; Design</h3><p>Engineering design support, costing and programme planning.</p></li>
-          <li class="step neu reveal"><span class="step-n neu-inset">03</span><h3>Build &amp; Install</h3><p>We build with our own plant and skilled crews, under strict HSE controls.</p></li>
-          <li class="step neu reveal"><span class="step-n neu-inset">04</span><h3>Commission &amp; Support</h3><p>Testing, handover, training and after-care.</p></li>
+          <li><span class="step-n">01</span><h3>Survey &amp; scope</h3><p>Site visit, feasibility and a clear statement of requirements.</p></li>
+          <li><span class="step-n">02</span><h3>Design &amp; plan</h3><p>Design support, bill of quantities and a construction programme.</p></li>
+          <li><span class="step-n">03</span><h3>Build &amp; install</h3><p>Our own crews and plant, working to written HSE procedures.</p></li>
+          <li><span class="step-n">04</span><h3>Commission &amp; hand over</h3><p>Testing, as-built records, operator training and defects support.</p></li>
         </ol>
 
-        <div class="assurance reveal">
-          <div class="assure neu-sm"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 7 5-3 5 3-1.5-7"/></svg><span>Quality Management System</span></div>
-          <div class="assure neu-sm"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21v-7"/><path d="M12 14c-4 0-7-3-7-7 4 0 7 3 7 7Zm0 0c4 0 7-3 7-7-4 0-7 3-7 7Z"/></svg><span>Environmental Management</span></div>
-          <div class="assure neu-sm"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Occupational Health &amp; Safety</span></div>
-          <div class="assure neu-sm"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg><span>Registered in Kenya</span></div>
-        </div>
+        <ul class="assurance">
+          <li><i class="fa-solid fa-award" aria-hidden="true"></i> Quality management</li>
+          <li><i class="fa-solid fa-leaf" aria-hidden="true"></i> Environmental management</li>
+          <li><i class="fa-solid fa-helmet-safety" aria-hidden="true"></i> Occupational health &amp; safety</li>
+          <li><i class="fa-solid fa-file-contract" aria-hidden="true"></i> Registered in Kenya</li>
+        </ul>
       </div>
     </section>
 
     <!-- ============ CTA BAND ============ -->
     <section class="cta-band">
       <div class="container">
-        <div class="cta-inner reveal">
+        <div class="cta-inner">
           <div>
-            <h2>Let’s build Kenya’s infrastructure together.</h2>
-            <p>Water, power, roads and buildings: one dependable partner from concept to commissioning.</p>
+            <h2>Planning a water, power or civil works project?</h2>
+            <p>Send us the scope and location, and we'll reply with a proposal.</p>
           </div>
-          <a href="mailto:info@baichuanltd.com" class="btn btn-light">info@baichuanltd.com</a>
+          <a href="mailto:info@baichuanltd.com" class="btn btn-light"><i class="fa-solid fa-envelope" aria-hidden="true"></i> info@baichuanltd.com</a>
         </div>
       </div>
     </section>
@@ -358,57 +295,53 @@
     <!-- ============ CONTACT ============ -->
     <section class="section" id="contact">
       <div class="container contact-grid">
-        <div class="contact-info reveal">
-          <span class="eyebrow">Contact Us</span>
-          <h2>Start the conversation</h2>
-          <p>Send us your project details and our team will get back to you promptly.</p>
+        <div class="contact-info">
+          <h2>Contact us</h2>
+          <p>Visit our Nairobi office or send your project details using the form.</p>
 
-          <div class="info-list">
-            <div class="info neu-sm">
-              <span class="i-ico neu-inset"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
-              <div><small>Office</small><strong>Block A0409 &amp; A0410, AVIC Park<br>Laikipia Road, Kileleshwa<br>Nairobi, Kenya</strong></div>
-            </div>
-            <a class="info neu-sm" href="mailto:info@baichuanltd.com">
-              <span class="i-ico neu-inset"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
-              <div><small>Email</small><strong>info@baichuanltd.com</strong></div>
-            </a>
-            <a class="info neu-sm" href="https://baichuanltd.com">
-              <span class="i-ico neu-inset"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9S14.5 18.3 12 21c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3Z"/></svg></span>
-              <div><small>Website</small><strong>baichuanltd.com</strong></div>
-            </a>
-          </div>
+          <ul class="info-list">
+            <li>
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              <div><small>Office</small>Block A0409 &amp; A0410, AVIC Park<br>Laikipia Road, Kileleshwa<br>Nairobi, Kenya</div>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              <div><small>Email</small><a href="mailto:info@baichuanltd.com">info@baichuanltd.com</a></div>
+            </li>
+            <li>
+              <i class="fa-solid fa-globe" aria-hidden="true"></i>
+              <div><small>Website</small><a href="https://baichuanltd.com">baichuanltd.com</a></div>
+            </li>
+          </ul>
 
-          <div class="map neu">
+          <div class="map">
             <iframe title="Baichuan office location, AVIC Park, Kileleshwa, Nairobi" src="https://www.google.com/maps?q=AVIC+Park,+Laikipia+Road,+Kileleshwa,+Nairobi&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
 
-        <form class="contact-form neu reveal" id="contactForm" novalidate>
-          <h3>Request a Quote</h3>
+        <form class="contact-form neu" id="contactForm" novalidate>
+          <h3>Request a quote</h3>
           <div class="row">
-            <label class="field"><span>Full name</span><input class="neu-inset" type="text" name="name" required autocomplete="name" placeholder="Jane Wanjiku"></label>
-            <label class="field"><span>Company</span><input class="neu-inset" type="text" name="company" autocomplete="organization" placeholder="Organisation"></label>
+            <label class="field"><span>Full name</span><input class="neu-inset" type="text" name="name" required autocomplete="name"></label>
+            <label class="field"><span>Company</span><input class="neu-inset" type="text" name="company" autocomplete="organization"></label>
           </div>
           <div class="row">
-            <label class="field"><span>Email</span><input class="neu-inset" type="email" name="email" required autocomplete="email" placeholder="you@company.com"></label>
-            <label class="field"><span>Phone</span><input class="neu-inset" type="tel" name="phone" autocomplete="tel" placeholder="+254 ..."></label>
+            <label class="field"><span>Email</span><input class="neu-inset" type="email" name="email" required autocomplete="email"></label>
+            <label class="field"><span>Phone</span><input class="neu-inset" type="tel" name="phone" autocomplete="tel" placeholder="+254"></label>
           </div>
           <label class="field"><span>Service needed</span>
             <select class="neu-inset" name="service">
-              <option>Water Conservancy &amp; Hydraulics</option>
-              <option>Water Supply &amp; Treatment</option>
-              <option>Power Transmission &amp; Substations</option>
-              <option>Roads &amp; Municipal Works</option>
-              <option>Building Construction</option>
-              <option>Landscape &amp; Environmental</option>
-              <option>Electromechanical Installation</option>
+              <option>Water conservancy &amp; hydraulics</option>
+              <option>Water supply &amp; treatment</option>
+              <option>Power transmission &amp; substations</option>
+              <option>Roads &amp; municipal works</option>
+              <option>Building construction</option>
+              <option>Landscape &amp; environmental</option>
               <option>Other</option>
             </select>
           </label>
-          <label class="field"><span>Project details</span><textarea class="neu-inset" name="message" rows="5" required placeholder="Location, scope, timeline…"></textarea></label>
-          <button type="submit" class="btn btn-primary btn-block">Send Enquiry
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 12 16-8-6 16-2-7-8-1Z"/></svg>
-          </button>
+          <label class="field"><span>Project details</span><textarea class="neu-inset" name="message" rows="5" required placeholder="Location, scope, timeline"></textarea></label>
+          <button type="submit" class="btn btn-primary btn-block">Send enquiry <i class="fa-solid fa-paper-plane" aria-hidden="true"></i></button>
           <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
         </form>
       </div>
@@ -423,7 +356,7 @@
           <img src="assets/img/logo.png" alt="" width="64" height="35">
           <span class="brand-text"><strong>Baichuan</strong><small>Water &amp; Power Construction</small></span>
         </a>
-        <p>Baichuan Water Conservancy and Electric Power Construction Limited: water and power infrastructure solutions for Kenya and East Africa.</p>
+        <p>Baichuan Water Conservancy and Electric Power Construction Limited. Water and power infrastructure for Kenya and East Africa.</p>
       </div>
       <div>
         <h4>Company</h4>
@@ -431,11 +364,11 @@
       </div>
       <div>
         <h4>Services</h4>
-        <ul><li><a href="#services">Water &amp; Hydraulics</a></li><li><a href="#services">Power &amp; Substations</a></li><li><a href="#services">Roads &amp; Municipal</a></li><li><a href="#services">Buildings</a></li></ul>
+        <ul><li><a href="#services">Water &amp; hydraulics</a></li><li><a href="#services">Power &amp; substations</a></li><li><a href="#services">Roads &amp; municipal</a></li><li><a href="#services">Buildings</a></li></ul>
       </div>
       <div>
-        <h4>Reach Us</h4>
-        <ul class="f-contact">
+        <h4>Reach us</h4>
+        <ul>
           <li>AVIC Park, Laikipia Road, Kileleshwa, Nairobi</li>
           <li><a href="mailto:info@baichuanltd.com">info@baichuanltd.com</a></li>
           <li><a href="https://baichuanltd.com">baichuanltd.com</a></li>
@@ -443,14 +376,12 @@
       </div>
     </div>
     <div class="container footer-bottom">
-      <p>© <span id="year">2026</span> Baichuan Water Conservancy and Electric Power Construction Limited. All rights reserved.</p>
+      <p>© <span id="year">2026</span> Baichuan Water Conservancy and Electric Power Construction Limited.</p>
       <p class="powered">Powered by <a href="https://customcx.com" target="_blank" rel="noopener">CustomCX</a></p>
     </div>
   </footer>
 
-  <a href="#top" class="to-top neu-btn" id="toTop" aria-label="Back to top">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
-  </a>
+  <a href="#top" class="to-top neu-btn" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></a>
 
   <script src="assets/js/main.js" defer></script>
 </body>
