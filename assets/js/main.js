@@ -77,9 +77,13 @@
   // ----- Project filters -----
   var filters = document.querySelectorAll('.filter');
   var projects = document.querySelectorAll('.project');
+  var grid = document.getElementById('projectsGrid');
+  var showMore = document.getElementById('showMore');
+  if (showMore) showMore.addEventListener('click', function () { grid.classList.remove('collapsed'); });
   filters.forEach(function (btn) {
     btn.addEventListener('click', function () {
       var f = btn.getAttribute('data-filter');
+      if (grid && f !== 'all') grid.classList.remove('collapsed');
       filters.forEach(function (b) {
         var on = b === btn;
         b.classList.toggle('active', on);
